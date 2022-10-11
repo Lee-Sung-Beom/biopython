@@ -37,3 +37,15 @@
     |translate( )|DNA, RNA Sequence -> Protein Sequence|
     |complement( )|Sequence 객체가 가진 서열의 상보적 서열 반환|
     |reverse_complement( )|Sequence 객체가 가진 서열의 역상보적 서열 반환|
+    
+    ```python
+    from Bio.Seq import Seq #Bio.Seq의 Seq 모듈 호출
+    tatabox_seq = Seq("tataaaggc") #TATA Box 서열 입력
+
+    com_tatabox_seq = Seq.complement(tatabox_seq)
+    >>> atatttccg #TATA Box 서열의 상보적 서열 출력
+
+    re_tatabox_seq = Seq.reverse_complement("tataaaggc")
+    >>> gcctttata #TATA Box 서열의 역상보적 서열 출력
+    ```
+
