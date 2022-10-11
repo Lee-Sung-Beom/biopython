@@ -17,7 +17,7 @@
  - JupyterLab 실행 후 자신이 작성한 파일을 저장할 폴더 생성
  - 해당 폴더 진입 후 Notebook - Python3 실행
  - 바이오파이썬 설치의 확인을 위해 명령어 입력
- ```py
+ ```python
   import Bio
   ---------------------------------------------------------------------------
 ModuleNotFoundError                       Traceback (most recent call last)
@@ -32,6 +32,6 @@ ModuleNotFoundError: No module named 'Bio'
    - 표시 목록을 **installed** -> **All** 로 변경 후 우측에 **biopython** 검색
    - **biopython** 항목 선택 후 우측 하단의 **Apply** 클릭
  - 바이오파이썬 설치 이후 다시 JupyterLab에서 명령어 입력
- ```py
+ ```python
  import bio
  ```
